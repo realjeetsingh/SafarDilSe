@@ -2,6 +2,7 @@
 // components/HomePage.js - main page
 import dynamic from 'next/dynamic'
 import GoogleForm from './GoogleForm'
+import Header from './Header.js'
 const InteractiveMap = dynamic(()=>import('./InteractiveMap'),{ssr:false,loading:()=> <p>Loading map...</p>})
 
 export default function HomePage(){
