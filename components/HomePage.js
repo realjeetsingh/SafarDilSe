@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic'
-import { Analytics } from '@vercel/analytics/next'
 import HubSpotForm from './HubSpotForm'
 
 // Dynamic import for InteractiveMap to avoid SSR issues
